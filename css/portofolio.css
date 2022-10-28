@@ -68,7 +68,7 @@ body{
 }
 /**** Slider *****/
 .index-banner{
-	background:url(../images/banner.jpg)no-repeat;
+	background:url(../assets/banner.jpg)no-repeat;
 	padding:10px 0;
 }
 .banner-wrap{
