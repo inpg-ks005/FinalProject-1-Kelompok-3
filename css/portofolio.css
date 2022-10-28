@@ -149,7 +149,7 @@ body{
 	cursor: pointer;
 	padding:8px 20px;
 	display: inline-block;
-	border-bottom: 3px solid #ffea00;
+	border-bottom: 3px solid #FFEA00;
 	letter-spacing: 1px;
 	outline: none;
 	position: relative;
@@ -324,7 +324,7 @@ p.bottom{
 	text-transform:lowercase;
 }
 span.small{
-	color:#ffea00;
+	color:#FFEA00;
 }
 .grid1{
 	text-align:center;
@@ -3598,7 +3598,3 @@ span.yellow1 a {
 		width: 60%;
 	}
 }
-.contact-info {
-	display: flex;
-	margin-bottom: 30px;
-  }
