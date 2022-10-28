@@ -251,6 +251,70 @@ span {
 }
 
 /* social-icon */
+.social-icons ul li:first-child,
+ol li:first-child {
+  margin-top: 0px;
+  margin-left: 0;
+}
+.social-icons li {
+  background: none;
+  padding: 0px;
+  display: inline-block;
+}
+li.facebook a span {
+  height: 30px;
+  width: 30px;
+  display: block;
+  background: url(/assets/img-sprite.png) no-repeat -283px -14px;
+}
+li.facebook a span:hover {
+  background: url(/assets/img-sprite.png) no-repeat -283px -46px;
+}
+li.google a span {
+  height: 30px;
+  width: 30px;
+  display: block;
+  background: url(/assets/img-sprite.png) no-repeat -316px -14px;
+}
+li.google a span:hover {
+  background: url(/assets/img-sprite.png) no-repeat -316px -46px;
+}
+li.twitter a span {
+  height: 30px;
+  width: 30px;
+  display: block;
+  background: url(/assets/img-sprite.png) no-repeat -349px -14px;
+}
+li.twitter a span:hover {
+  background: url(/assets/img-sprite.png) no-repeat -349px -46px;
+}
+li.linkedin a span {
+  height: 30px;
+  width: 30px;
+  display: block;
+  background: url(/assets/img-sprite.png) no-repeat -382px -14px;
+}
+li.linkedin a span:hover {
+  background: url(/assets/img-sprite.png) no-repeat -382px -46px;
+}
+li.youtube a span {
+  height: 30px;
+  width: 30px;
+  display: block;
+  background: url(/assets/img-sprite.png) no-repeat -416px -14px;
+}
+li.youtube a span:hover {
+  background: url(/assets/img-sprite.png) no-repeat -416px -46px;
+}
+li.bloger a span {
+  height: 30px;
+  width: 30px;
+  display: block;
+  background: url(/assets/img-sprite.png) no-repeat -448px -14px;
+}
+li.bloger a span:hover {
+  background: url(/assets/img-sprite.png) no-repeat -448px -46px;
+}
 
 /* right footer */
 .col-sm-4 ul {
