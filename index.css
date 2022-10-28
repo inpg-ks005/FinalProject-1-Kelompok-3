@@ -215,7 +215,7 @@
   background-color: black;
   display: inline-block;
   padding: 5px 20px;
-  border-bottom: 5px solid #905e96;
+  border-bottom: 5px solid #ffea00;
   text-decoration: none;
   color: white;
 }
@@ -228,14 +228,24 @@
   margin-bottom: 30px;
 }
 
+/* gallery */
+.gallery-item {
+  width: 100%;
+  cursor: pointer;
+}
+
+#exampleModal .modal-zoom {
+  width: 100%;
+}
+
 /* middle footer */
 span a {
   text-decoration: none;
-  color: #905e96;
+  color: #ffea00;
 }
 
 span {
-  color: #905e96;
+  color: #ffea00;
 }
 
 /* social-icon */
@@ -310,17 +320,13 @@ li.bloger a span:hover {
   margin: 0;
   padding: 0;
 }
+
 .contact-info {
   display: flex;
   margin-bottom: 30px;
 }
 
-ul li {
-  display: flex;
-  margin-bottom: 30px;
-}
-
-ul li img {
+.contact-img {
   width: 30px;
   height: 30px;
   margin-right: 20px;
