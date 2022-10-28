@@ -1,0 +1,305 @@
+/* blog */
+/* navbar */
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+.navbar {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  padding: 1vw;
+}
+
+.nav-item {
+  padding: 15px 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background: #ff8100;
+  padding: 5px;
+}
+
+.nav-item:nth-child(3) {
+  background-color: #ff8100;
+}
+
+/* banner */
+.banner {
+  background-image: url("/images/banner.jpg");
+  height: 17rem;
+}
+
+.warp-2 {
+  display: flex;
+  margin-left: 5vw;
+  margin-top: 5vw;
+}
+
+.banner h2 {
+  background-color: #424146;
+  color: #ffea00;
+  padding: 10px 60px 10px 20px;
+}
+
+/* content */
+.content {
+  padding-top: 50px;
+}
+
+.content .row {
+  margin: 0;
+}
+
+.background-yellow {
+  background-color: #ffea00;
+}
+
+.background-yellow .title {
+  font-size: 1.4em;
+  padding: 10px 30px;
+}
+
+.author {
+  text-align: end;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.background-yellow a {
+  text-decoration: none;
+}
+
+.background-yellow h5 {
+  color: black;
+}
+
+.background-yellow .text {
+  font-size: 1em;
+  color: black;
+  padding: 0 30px;
+}
+
+.comment {
+  padding: 0 30px;
+}
+
+.comment p {
+  text-align: end;
+  padding-bottom: 20px;
+}
+
+.comment a {
+  text-decoration: none;
+  color: black;
+}
+
+.comment a:hover {
+  text-decoration: underline;
+}
+
+/* blog right */
+.search {
+  background-color: #424146;
+}
+
+.search-bar {
+  margin: 0;
+  padding: 20px;
+}
+
+/* categories */
+.categories {
+  background-color: #424146;
+  margin-top: 15px;
+}
+
+.categories h4 {
+  color: #ffea00;
+  padding: 20px 32px;
+}
+
+.categories-content {
+  justify-content: space-between;
+  padding: 10px 32px 20px 32px;
+  width: 100%;
+}
+
+.categories-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.categories-img {
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.categories-text {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.categories-text:hover {
+  color: #ffea00;
+}
+
+/* popular post */
+.post-li {
+  margin-bottom: 10px;
+}
+
+.post-img {
+  width: 30%;
+  margin-right: 5px;
+}
+
+.post-text {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+}
+
+.post-text:hover {
+  color: #ffea00;
+}
+
+.comment-post {
+  justify-content: end;
+}
+
+/* tags */
+.tags-content {
+  padding: 10px 32px 20px 32px;
+}
+
+.tags-span {
+  background-color: #ffea00;
+}
+
+.tags-text {
+  padding: 10px;
+}
+
+/* page navigation */
+
+/* footer */
+.footer {
+  background-color: #424147;
+  padding: 2vw 5vw;
+}
+
+.row .col-sm-4 {
+  padding: 0 20px;
+}
+
+.row .col-sm-4 p {
+  font-size: 13px;
+}
+
+#learnMore {
+  background-color: black;
+  display: inline-block;
+  padding: 5px 20px;
+  border-bottom: 5px solid #ffea00;
+  text-decoration: none;
+  color: white;
+}
+
+.row .col-sm-4 a:hover {
+  opacity: 75%;
+}
+
+.mgb {
+  margin-bottom: 30px;
+}
+
+/* gallery */
+.gallery-item {
+  width: 100%;
+  cursor: pointer;
+}
+
+#exampleModal .modal-zoom {
+  width: 100%;
+}
+
+/* middle footer */
+span a {
+  text-decoration: none;
+  color: #ffea00;
+}
+
+span {
+  color: #ffea00;
+}
+
+/* social-icon */
+
+/* right footer */
+.col-sm-4 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contact-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+/* form */
+.form input[type="text"] {
+  outline: none;
+  padding: 2px 16px;
+  color: #fff;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  line-height: 1.5em;
+  border-bottom: 3px solid #ffea00;
+}
+
+/* footbar */
+.footbar {
+  background-color: #212529;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
+
+.copyright p {
+  margin: 0;
+}
+
+.footbar-item {
+  text-decoration: none;
+  padding: 5px;
+  margin: 2px;
+}
+
+.footbar-li a {
+  text-align: center;
+}
